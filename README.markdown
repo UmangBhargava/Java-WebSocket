@@ -18,10 +18,10 @@ Implemented WebSocket protocol versions are:
 [Here](https://github.com/TooTallNate/Java-WebSocket/wiki/Drafts) some more details about protocol versions/drafts. 
 
 
-##Build
+## Build
 You can build using Ant or Maven but there is nothing against just putting the source path ```src/main/java ``` on your applications buildpath.
 
-###Ant
+### Ant
 
 ``` bash
 ant 
@@ -31,7 +31,7 @@ will create the javadoc of this library at ```doc/``` and build the library itse
 
 The ant targets are: ```compile```, ```jar```, ```doc``` and ```clean```
 
-###Maven
+### Maven
 
 To use maven just add this dependency to your pom.xml:
 ```xml
